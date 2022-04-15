@@ -1,0 +1,148 @@
+body { 
+	background-position: center center;						/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+	background-repeat: no-repeat;							/* Para que la imagen de fondo no se repita */
+	background-attachment: fixed;							/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+	-moz-background-size: cover; 
+	background-size: cover;									/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+	background-color: #66999; 								/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+	padding: 0;
+	margin: 0;
+}
+
+.page-header{ 
+	background-color: rgba( 245, 245, 245, 0.4 ); 
+	adding-bottom: 9px;
+	top: 0px;
+    margin: 0px 0px 20px 0px;			/* Top Right nBottom Left */
+    border-bottom: 1px solid #eee;
+}
+.icono>i,.info .icono>i{
+    font-size:61.6px
+}
+.info-title{
+  	font-family:"Roboto Slab","Times New Roman",serif;
+    font-weight: 700;	
+   	color:#3C4858;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+#Servicios{
+	position:relative;
+	background-color: #eeeeee;
+	height:600px;
+	margin-bottom: 10px;
+}
+#lead{
+	position:relative;
+	height:100vh;
+	min-height:500px;
+	max-height:1080px;
+	background:url(../imagenes/lead-bg.gif);
+	background-size:cover;
+	padding:15px;
+	overflow:hidden
+}
+#lead-content{
+	position:absolute;
+	z-index:10;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	text-align:center
+}
+#lead-content h1,#lead-content h2{
+	margin:0
+}
+#lead-content h1{
+	color:#fff;
+	font-weight:900;
+	font-size:5em;
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	line-height:0.9em
+}
+#lead-content h2{
+	color:#a0cfee;
+	font-weight:500;
+	font-size:2.25em;
+	margin-bottom:15px
+}
+#lead-overlay{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(33,125,187,0.8);
+	z-index:1
+}
+#lead-down{
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	text-align:center;
+	z-index:10;
+	bottom:15px;
+	color:#fff
+}
+#lead-down span{
+	cursor:pointer;
+	display:block;
+	margin:0 auto;
+	width:35px;
+	height:35px;
+	border-radius:50%;
+	border:3px solid #a0cfee;
+	text-align:center
+}
+#lead-down i{
+	animation:pulsate 1.5s ease;
+	animation-iteration-count:
+	infinite;
+	padding-top:5px
+}
+#Gracias{
+	background-color: #a0cfee;
+	border-color: 1px solid red;
+	text-align:center;
+}
+
+#Gracias p{
+	text-align:center;
+	font-size: 1.2em;
+}
+#NuestroLocal{
+	text-align:center;	
+}
+#Fotos{
+	position: relative;
+	background-color: #a0cfee;	
+	height:400px;
+}
+#Pie{
+	padding: 5px;
+	background-color: rgba( 0, 0, 0 ); 
+}
+.PieContenido{
+	position: relative;
+	padding-right:10px;
+	text-align:left;
+}
+
+.PieMenu{
+	font-size: 14px;
+}
+.PieMenu li{
+	display:inline-block;
+}
+.PieMenu li a{
+	padding:15px;
+	color: white;
+}
+.copyright{
+	text-align:right;
+	color: white;
+}
